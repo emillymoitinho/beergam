@@ -11,12 +11,16 @@
     --cinza: #EEF2FF;
     --azul_fundo: #E1EAFE;
     --azulClaro: #F0FDFA;
+    --azulClaNav: #003CB7;
+    --azulEscNav: #284277;
+
 }
 
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    list-style: none;
 }
 
 
@@ -25,9 +29,58 @@ body {
     background: linear-gradient(#f5f5f5, #E1EAFE);
 }
 
+nav#menuVendas {
+    position: absolute;
+    top: 1.5rem;
+    left: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(#284277d7, #284277);
+    opacity: 80%;
+    padding: 20px;
+    border-radius: 20px;
+    gap: 2rem;
+
+}
+
+div#main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div#main p {
+    font-size: 10px;
+    margin-bottom: 1.5rem;
+    color: var(--branco);
+    font-weight: 100;
+    opacity: 80%;
+}
+
+
+div#main ul li {
+    margin-bottom: 1.5rem;
+}
+
+div#main ul li .decor {
+    display: flex;
+    border: 1px solid var(--laranja_claro);
+    padding: 8px;
+    border-radius: 10px;
+}
+
+ span.bell {
+    margin-top: 5rem;
+    background-color: var(--laranja_escuro);
+    padding: 10px;
+    display: flex;
+    border-radius: 10px;
+}
+
 header {
     background: linear-gradient(#FFBD70, #FF8A00);
-    padding: 3rem 5rem;
+    padding: 3rem 15rem;
     height: 50vh;
 }
 
