@@ -25,13 +25,14 @@ body {
 
 header {
     background: linear-gradient(#FFBD70, #FF8A00);
-    padding: 5rem 10rem;
+    padding: 3rem 5rem;
+    height: 50vh;
 }
 
 div#tendencias {
     display: flex;
-    justify-content: space-around;
-    max-width: 900px;
+    justify-content: space-between;
+    max-width: 600px;
 }
 
 div#logo {
@@ -73,4 +74,22 @@ div#destaque span p {
 
 div#destaque span img {
     width: 1.5rem;
+}
+
+section#buscas {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+div.card {
+    display: flex;
+    align-items: center;
+}
+
+div.card img {
+    max-width: 20rem;
 }
