@@ -9,6 +9,7 @@
     --laranja_escuro: #FF8A00;
     --branco: #FFF;
     --cinza: #EEF2FF;
+    --azul_fundo: #E1EAFE;
     --azulClaro: #F0FDFA;
 }
 
@@ -21,7 +22,7 @@
 
 body {
     font-family: "Nunito", sans-serif;
-    background-color: var(--fundo);
+    background: linear-gradient(#f5f5f5, #E1EAFE);
 }
 
 header {
@@ -92,7 +93,7 @@ div.card {
 }
 
 div.card img {
-    max-width: 20rem;
+    max-width: 50rem;
 }
 
 
@@ -103,8 +104,12 @@ section#categorias {
 }
 
 article.cards {
-    display: flex;
+    /* display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem; */
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
     gap: 2rem;
 }
 
