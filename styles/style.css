@@ -152,6 +152,7 @@ div.card img {
 
 section#categorias {
     margin-top: 20rem;
+    margin-bottom: 10rem;
     display: flex;
     justify-content: center;
 }
