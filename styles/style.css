@@ -150,6 +150,27 @@ div.card img {
 }
 
 
+section#buscasCresceram {
+    margin-top: 20rem;
+    margin-bottom: 10rem;
+    display: flex;
+    justify-content: center;
+    
+}
+
+article.cards_cresceram {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+div#controle {
+    margin-bottom: 1.5rem;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.103);
+}
+
+
 section#categorias {
     margin-top: 20rem;
     margin-bottom: 10rem;
@@ -158,10 +179,6 @@ section#categorias {
 }
 
 article.cards {
-    /* display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 2rem; */
     display: grid;
     grid-template-columns: repeat(7, 1fr);
     gap: 2rem;
