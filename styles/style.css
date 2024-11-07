@@ -63,6 +63,9 @@ div#main p {
 
 div#main ul li {
     margin-bottom: 1.5rem;
+    display: flex;
+    margin-bottom: 1.5rem;
+    justify-content: center;
 }
 
 div#main ul li .decor {
@@ -241,6 +244,7 @@ section#buscasCresceram {
     display: flex;
     margin: 30rem 10rem 15rem 10rem;
     flex-direction: column;
+    align-items: center;
 }
 
 section#buscasCresceram h2 {
