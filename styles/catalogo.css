@@ -273,4 +273,22 @@ div.card_medio {
     border-radius: 20px;
 }
 
+div#botao {
+    display: flex;
+    justify-content: center;
+}
+
+div#botao button {
+    margin-bottom: 3rem;
+    padding: 1rem 3.5rem;
+    border-radius: 30px;
+    border: 1px solid #182847;
+    color: #182847;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+div#botao button p {
+    
+}
 
