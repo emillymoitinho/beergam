@@ -29,11 +29,11 @@
 
 body,html {
     font-family: "Nunito", sans-serif;
-    background-color: var(--fundo);
+    background-color: #EAECF1;
 }
 
 nav#menu {
-    position: absolute;
+    position: fixed;
     top: 1.5rem;
     left: 1.5rem;
     display: flex;
@@ -44,6 +44,40 @@ nav#menu {
     padding: 20px;
     border-radius: 20px;
     gap: 2rem;
+}
+
+div#main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div#main p {
+    font-size: 10px;
+    margin-bottom: 1.5rem;
+    color: var(--branco);
+    font-weight: 100;
+    opacity: 80%;
+}
+
+
+div#main ul li {
+    margin-bottom: 1.5rem;
+}
+
+div#main ul li .decor {
+    display: flex;
+    border: 1px solid var(--laranja_claro);
+    padding: 8px;
+    border-radius: 10px;
+}
+
+ span.bell {
+    margin-top: 5rem;
+    background-color: var(--laranja_escuro);
+    padding: 10px;
+    display: flex;
+    border-radius: 10px;
 }
 
 
@@ -90,7 +124,8 @@ article#pesquisar {
     background: url(/imagens/busca_catalogo.png);
     background-size: cover;
     padding: 2rem 3rem;
-    border-radius: 30px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
     width: 65vw;
 }
 
@@ -127,3 +162,115 @@ span#pesquisa input {
     height: 30px;
     outline: none;
 }
+
+section#menu {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+div#botoes {
+    display: flex;
+    gap: 2rem;
+}
+
+span.botao {
+    padding: 1rem 2.5rem;
+    border: 1px solid var(--laranja_claro);
+    border-radius: 50px;
+    color: var(--pretoazul);
+    opacity: 75%;
+}
+
+span#color {
+    background-color: #284277;
+    color: white;
+}
+
+div#menu p {
+    font-weight: 300;
+}
+
+section#collection {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+article#cards_catalogo {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    flex: 0 1 150px;
+}
+
+div.card {
+    background-color: #ffffff91;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+div.card img {
+    border-radius: 10px;
+}
+
+div.card_medio button {
+    margin-top: 1rem;
+    background-color: var(--azulcards);
+    border: none;
+    padding: 1rem 5rem;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+span#botao {
+    display: flex;
+    justify-content: center;
+}
+
+p.title {
+    margin-top: 1.2rem;
+    margin-bottom: 1rem;
+    color: var(--laranja_escuro);
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+ul.preco {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul.preco li {
+    color: var(--pretoazul);
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+ul.concorrentes {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul.concorrentes li {
+    font-size: 0.8rem;
+}
+
+ul.concorrentes li.porcentagem {
+    color: #FF0000;
+}
+ul.concorrentes li.porcentagem_green {
+    color: #87DE72;
+}
+
+div.card_medio {
+    background-color: #ffe1bd3d;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+
