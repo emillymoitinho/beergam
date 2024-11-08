@@ -23,6 +23,7 @@
     margin: 0;
     box-sizing: border-box;
     list-style: none;
+    text-decoration: none;
 }
 
 
@@ -206,6 +207,17 @@ div#destaque span p {
 
 div#destaque span img {
     width: 1.5rem;
+}
+
+div#destaque_favorito {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: var(--branco);
+    padding: 15px 20px;
+    border-radius: 30px;
+    color: var(--laranja_escuro);
+    font-weight: 700;
 }
 
 section#favoritos {
