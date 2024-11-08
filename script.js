@@ -11,9 +11,9 @@ texto.addEventListener("mouseover", () => {
 });
 
 
+// Interação da seta do Menu
 function seta() {
     const sidebar = document.getElementById("menu");
     sidebar.classList.toggle("menuAumentado");
-  
-  }
+}
 

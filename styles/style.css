@@ -66,6 +66,7 @@ div#arrow {
     width: 250px;
 }
 
+
 div#main.menuAumentado {
     display: flex;
     flex-direction: column;
@@ -448,6 +449,22 @@ div.card_categorias img {
 
 div.card_categorias p {
     font-weight: 700;
+}
+
+div#arrow_categorias {
+    display: flex;
+    align-items: center;
+}
+
+div#arrow_categorias span {
+    font-size: 40px;
+    transition: .3s;
+}
+
+div#arrow_categorias span:hover {
+    color: var(--laranja_escuro);
+    cursor: pointer;
+    
 }
 
 
