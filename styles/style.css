@@ -441,6 +441,7 @@ div.card_cresceram span.yellow i:hover {
     color: #fff;
     background-color: rgb(252, 252, 0);
     transition: .5s;
+    cursor: pointer;
 }
 
 
@@ -448,6 +449,7 @@ div.card_cresceram i:hover {
     color: #fff;
     background-color: var(--azulcards);
     transition: .5s;
+    cursor: pointer;
 }
 
 
