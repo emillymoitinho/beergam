@@ -395,6 +395,14 @@ article.cards_cresceram {
     
 }
 
+article.cards_favoritos {
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
 div.imagem {
     position: relative;
     display: flex;
