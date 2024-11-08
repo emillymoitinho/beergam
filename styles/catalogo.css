@@ -240,7 +240,10 @@ section#menu {
 div#botoes {
     display: flex;
     gap: 2rem;
+    cursor: pointer;
 }
+
+
 
 span.botao {
     padding: 1rem 2.5rem;
@@ -248,6 +251,12 @@ span.botao {
     border-radius: 50px;
     color: var(--pretoazul);
     opacity: 75%;
+}
+
+span.botao:hover {
+    background-color: #284277;
+    color: white;
+    transition: .3s;
 }
 
 span#color {
@@ -291,7 +300,13 @@ div.card {
     padding: 20px;
     border-radius: 20px;
     border: 1px solid #ffffff88;
-    box-shadow: 10px 10px 10px 10px #ffffff57;
+    box-shadow: -6px -3px 18px 4px #ffffff57;
+    cursor: pointer;
+}
+
+div.card:hover {
+    transform: scale(1.1);
+    transition: .3s;
 }
 
 div.card img {
@@ -309,6 +324,16 @@ div.card_medio button {
     font-weight: 600;
     cursor: pointer;
 }
+
+div.card_medio {
+    cursor: pointer;
+}
+
+div.card_medio:hover {
+    transform: scale(1.1);
+    transition: .3s;
+}
+
 
 span#botao {
     display: flex;
@@ -361,6 +386,7 @@ div.card_medio {
 div#botao {
     display: flex;
     justify-content: center;
+    cursor: pointer;
 }
 
 div#botao button {
@@ -371,6 +397,13 @@ div#botao button {
     color: #182847;
     font-size: 1.2rem;
     font-weight: 600;
+}
+
+div#botao button:hover {
+    background-color: #284277;
+    color: #fff;
+    cursor: pointer;
+    transition: .3s;
 }
 
 /* Estilização da Barra de Rolagem */
@@ -385,7 +418,7 @@ div#botao button {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: var(--laranja_escuro);
+    background: #284277;
     border-radius: 10px;
 }
 
