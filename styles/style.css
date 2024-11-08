@@ -308,27 +308,27 @@ div.card:hover {
 }
 
 div.card:nth-child(1) img {
-    content: url('../imagens/buscas_cresceram.png');
+    content: url('./imagens/buscas_cresceram.png');
   }
 
   div.card:nth-child(1):hover img {
-    content: url('../imagens/buscas_cresceram_hover.png');
+    content: url('./imagens/buscas_cresceram_hover.png');
   }
 
   div.card:nth-child(2) img {
-    content: url('../imagens/buscas_desejadas.png');
+    content: url('./imagens/buscas_desejadas.png');
   }
 
   div.card:nth-child(2):hover img {
-    content: url('../imagens/buscam_desejadas_hover.png');
+    content: url('./imagens/buscam_desejadas_hover.png');
   }
 
   div.card:nth-child(3) img {
-    content: url('../imagens/tendenciais_populares2.png');
+    content: url('./imagens/tendenciais_populares2.png');
   }
 
   div.card:nth-child(3):hover img {
-    content: url('../imagens/teste.png'); 
+    content: url('./imagens/teste.png'); 
   }
 
 /* Página Favoritos */
