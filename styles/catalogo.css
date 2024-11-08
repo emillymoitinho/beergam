@@ -263,6 +263,16 @@ section#collection {
     justify-content: center;
 }
 
+div.salvar {
+    position: relative;
+}
+
+div.salvar span  {
+    position: absolute;
+    right: 3%;
+    top: 10px;
+}
+
 article#cards_catalogo {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
