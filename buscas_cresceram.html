@@ -9,30 +9,37 @@
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet"/>
 </head>
 <body>
-    <nav id="menuVendas">
+    <nav id="menu">
         <img src="imagens/streetlights.png" alt="">
-        <img src="imagens/user.png" alt="">  
+        <img src="imagens/user.png" alt="">
+        <div>
+            <span class="texto">
+                <img src="imagens/user.png" alt="" class="logo_user">
+                <p>LOJA PEGAZUS</p>
+            </span>
+        </div>
+        <div id="arrow" onclick="seta()" "><img src="icons/seta_menu.png" alt="section#categorias_main" width="20px"></div>
         <div id="main">
             <p>MENU</p>
             <ul>
-                <li><img src="icons/Home.png" alt=""></li>
-                <li><img src="icons/Rouble-sign.png" alt=""></li>
-                <li><img src="icons/Basket.png" alt=""></li>
-                <li><span class="decor"><img src="icons/Chart-bar-1.png" alt=""></span></li>
-                <li><img src="icons/Message-rectangular.png" alt=""></li>
-                <li><img src="icons/Card-single-line.png" alt=""></li>
-                <li><img src="icons/Route-complex.png" alt=""></li>
-                <li><img src="icons/Cup-empty.png" alt=""></li>
+                <li><img src="icons/Home.png" alt=""><span class="texto"> Resumos</span></li>
+                <li><img src="icons/Rouble-sign.png" alt=""><span class="texto"> Publicidade</span></li>
+                <li><img src="icons/Basket.png" alt=""><span class="texto">Anúncios</span></li>
+                <li><img src="icons/Chart-bar-1.png" alt=""><span class="texto">Vendas</span></li>
+                <li><img src="icons/Message-rectangular.png" alt=""><span class="texto">Atendimento</span></li>
+                <li><img src="icons/Card-single-line.png" alt=""><span class="texto"> Despesas</span></li>
+                <li><img src="icons/Route-complex.png" alt=""><span class="texto">Rastreio</span></li>
+                <li><img src="icons/Cup-empty.png" alt=""><span class="texto">Meus Produtos</span></li>
             </ul>
         </div>  
-        <span class="bell"><img src="icons/Bell.png" alt=""> </span>         
+        <span class="bell"><img src="icons/Bell.png" alt=""></span>         
     </nav>
 
     <header>
         <div id="tendencias">
             <div id="logo">
                 <img src="imagens/logo.png" alt="Logo">
-                <h1>Tendencias</h1>
+                <h1 id="text_tendencia">Tendencias</h1>
             </div>
             <div id="pesquisa_catalogo">
                 <div id="destaque">
@@ -50,84 +57,84 @@
     </header>
 
     <section id="buscasCresceram">
-        <h2>As buscas que mais cresceram</h2>
-        <article class="cards_cresceram">
-            <div class="card_cresceram">
-                <div class="imagem">
-                    <img src="imagens/controle.png" alt="Controle Remoto">
-                    <span class="imagens"><img src="imagens/controles.png" alt=""></div></span>
-                <p class="title">Controle Xbox Series S sem fio</p>
-                <p class="blue">1° MAIOR CRESCIMENTO <span>| Mercado Livre</span></p>
-                <ul>
-                    <li><i class="ri-information-fill"></i></li>
-                    <span class="yellow">
-                        <li><i class="ri-search-line"></i></li>
-                    </span>
-                    <li class="valor">R$425,00</li>
-                </ul>
-                <ul id="fav">
-                    <li class="orange"><img src="icons/icon.png" alt=""> 829 Anúncios</li>
-                    <li><img src="icons/coracao.png" alt="favorito"></li>
-                </ul>
-            </div>
-            <div class="card_cresceram">
-                <div class="imagem">
-                    <img src="imagens/bike.png" alt="Bicicleta Aro 29">
-                    <span class="imagens"><img src="imagens/bikes.png" alt=""></span>
+            <h2>As buscas que mais cresceram</h2>
+            <article class="cards_cresceram">
+                <div class="card_cresceram">
+                    <div class="imagem">
+                        <img src="imagens/controle.png" alt="Controle Remoto">
+                        <span class="imagens"><img src="imagens/controles.png" alt=""></div></span>
+                    <p class="title">Controle Xbox Series S sem fio</p>
+                    <p class="blue">1° MAIOR CRESCIMENTO <span>| Mercado Livre</span></p>
+                    <ul>
+                        <li><i class="ri-information-fill"></i></li>
+                        <span class="yellow">
+                            <li><i class="ri-search-line"></i></li>
+                        </span>
+                        <li class="valor">R$425,00</li>
+                    </ul>
+                    <ul id="fav">
+                        <li class="orange"><img src="icons/icon.png" alt=""> 829 Anúncios</li>
+                        <li><img src="icons/coracao.png" alt="favorito"></li>
+                    </ul>
                 </div>
-                <p class="title">Bicicleta Aro 29</p>
-                <p class="blue">2° MAIOR CRESCIMENTO <span>| Mercado Livre</span></p>
-                <ul>
-                    <li><i class="ri-information-fill"></i></li>
-                    <span class="yellow">
-                        <li><i class="ri-search-line"></i></li>
-                    </span>
-                    <li class="valor">R$900,00</li>
-                </ul>
-                <ul id="fav">
-                    <li class="orange"><img src="icons/icon.png" alt=""> 357 Anúncios</li>
-                    <li><img src="icons/coracao.png" alt="favorito"></li>
-                </ul>
-            </div>
-            <div class="card_cresceram">
-                <div class="imagem">
-                    <img src="imagens/basquete.png" alt="Bola De Basquetebol T7">
-                    <span class="imagens"><img src="imagens/bolas.png" alt=""></span>
+                <div class="card_cresceram">
+                    <div class="imagem">
+                        <img src="imagens/bike.png" alt="Bicicleta Aro 29">
+                        <span class="imagens"><img src="imagens/bikes.png" alt=""></span>
+                    </div>
+                    <p class="title">Bicicleta Aro 29</p>
+                    <p class="blue">2° MAIOR CRESCIMENTO <span>| Mercado Livre</span></p>
+                    <ul>
+                        <li><i class="ri-information-fill"></i></li>
+                        <span class="yellow">
+                            <li><i class="ri-search-line"></i></li>
+                        </span>
+                        <li class="valor">R$900,00</li>
+                    </ul>
+                    <ul id="fav">
+                        <li class="orange"><img src="icons/icon.png" alt=""> 357 Anúncios</li>
+                        <li><img src="icons/coracao.png" alt="favorito"></li>
+                    </ul>
                 </div>
-                <p class="title">Bola De Basquetebol T7</p>
-                <p class="blue">3° MAIOR CRESCIMENTO <span>| Mercado Livre</span></p>
-                <ul>
-                    <li><i class="ri-information-fill"></i></li>
-                    <span class="yellow">
-                        <li><i class="ri-search-line"></i></li>
-                    </span>
-                    <li class="valor">R$130,00</li>
-                </ul>
-                <ul id="fav">
-                    <li class="orange"><img src="icons/icon.png" alt=""> 654 Anúncios</li>
-                    <li><img src="icons/coracao.png" alt="favorito"></li>
-                </ul>
-            </div>
-            <div class="card_cresceram">
-                <div class="imagem">
-                    <img src="imagens/bike_ergometrica.png" alt="bicicleta ergométrica">
-                    <span class="imagens"><img src="imagens/bikes_ergo.png" alt=""></span>
+                <div class="card_cresceram">
+                    <div class="imagem">
+                        <img src="imagens/basquete.png" alt="Bola De Basquetebol T7">
+                        <span class="imagens"><img src="imagens/bolas.png" alt=""></span>
+                    </div>
+                    <p class="title">Bola De Basquetebol T7</p>
+                    <p class="blue">3° MAIOR CRESCIMENTO <span>| Mercado Livre</span></p>
+                    <ul>
+                        <li><i class="ri-information-fill"></i></li>
+                        <span class="yellow">
+                            <li><i class="ri-search-line"></i></li>
+                        </span>
+                        <li class="valor">R$130,00</li>
+                    </ul>
+                    <ul id="fav">
+                        <li class="orange"><img src="icons/icon.png" alt=""> 654 Anúncios</li>
+                        <li><img src="icons/coracao.png" alt="favorito"></li>
+                    </ul>
                 </div>
-                <p class="title">Bicicleta Ergométrica</p>
-                <p class="blue">4° MAIOR CRESCIMENTO <span>| Mercado Livre</span></p>
-                <ul>
-                    <li><i class="ri-information-fill"></i></li>
-                    <span class="yellow">
-                        <li><i class="ri-search-line"></i></li>
-                    </span>
-                    <li class="valor">R$425,00</li>
-                </ul>
-                <ul id="fav">
-                    <li class="orange"><img src="icons/icon.png" alt=""> 223 Anúncios</li>
-                    <li><img src="icons/coracao.png" alt="favorito"></li>
-                </ul>
-            </div>
-         </article>
+                <div class="card_cresceram">
+                    <div class="imagem">
+                        <img src="imagens/bike_ergometrica.png" alt="bicicleta ergométrica">
+                        <span class="imagens"><img src="imagens/bikes_ergo.png" alt=""></span>
+                    </div>
+                    <p class="title">Bicicleta Ergométrica</p>
+                    <p class="blue">4° MAIOR CRESCIMENTO <span>| Mercado Livre</span></p>
+                    <ul>
+                        <li><i class="ri-information-fill"></i></li>
+                        <span class="yellow">
+                            <li><i class="ri-search-line"></i></li>
+                        </span>
+                        <li class="valor">R$425,00</li>
+                    </ul>
+                    <ul id="fav">
+                        <li class="orange"><img src="icons/icon.png" alt=""> 223 Anúncios</li>
+                        <li><img src="icons/coracao.png" alt="favorito"></li>
+                    </ul>
+                </div>
+             </article>
     </section>
 
 
@@ -192,6 +199,6 @@
             </div>
         </article>
     </section>
-
+    <script src="script.js"></script>
 </body>
 </html>

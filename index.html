@@ -6,6 +6,7 @@
     <title>Beergam</title>
     <link rel="stylesheet" href="styles/style.css">
     <link rel="shortcut icon" href="imagens/logo.png"image/x-icon">
+    <link rel="stylesheet" href="https://img.icons8.com/ios-filled/50/circled-chevron-right.png">
     <style>
         section#categorias_main {
             margin-top: 25rem;
@@ -16,29 +17,36 @@
     </style>
 </head>
 <body>
-    <nav id="menuVendas">
+    <nav id="menu">
         <img src="imagens/streetlights.png" alt="">
-        <img src="imagens/user.png" alt="">  
+        <img src="imagens/user.png" alt="">
+        <div>
+            <span class="texto">
+                <img src="imagens/user.png" alt="" class="logo_user">
+                <p>LOJA PEGAZUS</p>
+            </span>
+        </div>
+        <div id="arrow" onclick="seta()" "><img src="icons/seta_menu.png" alt="section#categorias_main" width="20px"></div>
         <div id="main">
             <p>MENU</p>
             <ul>
-                <li><img src="icons/Home.png" alt=""></li>
-                <li><img src="icons/Rouble-sign.png" alt=""></li>
-                <li><img src="icons/Basket.png" alt=""></li>
-                <li><span class="decor"><img src="icons/Chart-bar-1.png" alt=""></span></li>
-                <li><img src="icons/Message-rectangular.png" alt=""></li>
-                <li><img src="icons/Card-single-line.png" alt=""></li>
-                <li><img src="icons/Route-complex.png" alt=""></li>
-                <li><img src="icons/Cup-empty.png" alt=""></li>
+                <li><img src="icons/Home.png" alt=""><span class="texto"> Resumos</span></li>
+                <li><img src="icons/Rouble-sign.png" alt=""><span class="texto"> Publicidade</span></li>
+                <li><img src="icons/Basket.png" alt=""><span class="texto">Anúncios</span></li>
+                <li><img src="icons/Chart-bar-1.png" alt=""><span class="texto">Vendas</span></li>
+                <li><img src="icons/Message-rectangular.png" alt=""><span class="texto">Atendimento</span></li>
+                <li><img src="icons/Card-single-line.png" alt=""><span class="texto"> Despesas</span></li>
+                <li><img src="icons/Route-complex.png" alt=""><span class="texto">Rastreio</span></li>
+                <li><img src="icons/Cup-empty.png" alt=""><span class="texto">Meus Produtos</span></li>
             </ul>
         </div>  
-        <span class="bell"><img src="icons/Bell.png" alt=""> </span>         
+        <span class="bell"><img src="icons/Bell.png" alt=""></span>         
     </nav>
     <header>
         <div id="tendencias">
             <div id="logo">
                 <img src="imagens/logo.png" alt="Logo">
-                <h1>Tendencias</h1>
+                <h1 id="text_tendencia">Tendencias</h1>
             </div>
             <div id="pesquisa_catalogo">
                 <div id="destaque">
@@ -116,5 +124,6 @@
                 </div>
             </article>
         </section>
+        <script src="script.js"></script>
 </body>
 </html>

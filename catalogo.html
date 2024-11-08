@@ -9,24 +9,31 @@
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet"/>
 </head>
 <body>
-        <nav id="menu">
-            <img src="imagens/streetlights.png" alt="">
-            <img src="imagens/user.png" alt="">
-            <div id="main">
-                <p>MENU</p>
-                <ul>
-                    <li><img src="icons/Home.png" alt=""></li>
-                    <li><img src="icons/Rouble-sign.png" alt=""></li>
-                    <li><img src="icons/Basket.png" alt=""></li>
-                    <li><img src="icons/Chart-bar-1.png" alt=""></li>
-                    <li><img src="icons/Message-rectangular.png" alt=""></li>
-                    <li><img src="icons/Card-single-line.png" alt=""></li>
-                    <li><span class="decor"><img src="icons/Route-complex.png" alt=""></span></li>
-                    <li><img src="icons/Cup-empty.png" alt=""></li>
-                </ul>
-            </div>
-            <span class="bell"><img src="icons/Bell.png" alt=""> </span>
-        </nav>
+    <nav id="menu">
+        <img src="imagens/streetlights.png" alt="">
+        <img src="imagens/user.png" alt="">
+        <div>
+            <span class="texto">
+                <img src="imagens/user.png" alt="" class="logo_user">
+                <p>LOJA PEGAZUS</p>
+            </span>
+        </div>
+        <div id="arrow" onclick="seta()" "><img src="icons/seta_menu.png" alt="section#categorias_main" width="20px"></div>
+        <div id="main">
+            <p>MENU</p>
+            <ul>
+                <li><img src="icons/Home.png" alt=""><span class="texto"> Resumos</span></li>
+                <li><img src="icons/Rouble-sign.png" alt=""><span class="texto"> Publicidade</span></li>
+                <li><img src="icons/Basket.png" alt=""><span class="texto">Anúncios</span></li>
+                <li><img src="icons/Chart-bar-1.png" alt=""><span class="texto">Vendas</span></li>
+                <li><img src="icons/Message-rectangular.png" alt=""><span class="texto">Atendimento</span></li>
+                <li><img src="icons/Card-single-line.png" alt=""><span class="texto"> Despesas</span></li>
+                <li><img src="icons/Route-complex.png" alt=""><span class="texto">Rastreio</span></li>
+                <li><img src="icons/Cup-empty.png" alt=""><span class="texto">Meus Produtos</span></li>
+            </ul>
+        </div>  
+        <span class="bell"><img src="icons/Bell.png" alt=""></span>         
+    </nav>
         <header id="catalogo">
             <div>
                 <h1>Encontre Novos Catálogos <i class="ri-information-line"></i></h1>
@@ -168,5 +175,6 @@
             </article>
         </section>
         <div id="botao"><button>Ver Mais</button></div>
+        <script src="script.js"></script>
 </body>
 </html>

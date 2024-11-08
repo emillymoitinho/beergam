@@ -31,7 +31,7 @@ body,html {
     background: linear-gradient(#f5f5f5, #E1EAFE);
 }
 
-nav#menuVendas {
+nav#menu {
     position: fixed;
     top: 1.5rem;
     left: 1.5rem;
@@ -46,10 +46,46 @@ nav#menuVendas {
 
 }
 
-div#main {
+div#arrow {
+
+  position: absolute;
+  top: 60px;
+  right: -20px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  color: linear-gradient(#284277d7, #284277)
+  
+}
+
+#menu.menuAumentado {
+    width: 250px;
+}
+
+div#main.menuAumentado {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: end;
+}
+
+#menu.menuAumentado .texto {
+    display: flex;
+    color: #fff;
+    font-weight: 200;
+    text-align: center;
+}
+
+
+span.texto {
+    display: none;
+}
+
+span.texto .logo_user {
+    display: none;
 }
 
 div#main p {
@@ -64,9 +100,13 @@ div#main p {
 div#main ul li {
     margin-bottom: 1.5rem;
     display: flex;
-    margin-bottom: 1.5rem;
-    justify-content: center;
+    justify-content: flex-start;
+    gap: 1rem;
+    align-items: center;
+    color: #fff;
+    font-weight: 100;
 }
+
 
 div#main ul li .decor {
     display: flex;
@@ -76,7 +116,7 @@ div#main ul li .decor {
 }
 
  span.bell {
-    margin-top: 5rem;
+    margin-top: 3rem;
     background-color: var(--laranja_escuro);
     padding: 10px;
     display: flex;
@@ -102,6 +142,13 @@ div#logo {
     align-items: center;
     gap: 1.2rem;
 }
+
+div#logo h1#text_tendencia:hover {
+    color: var(--laranja_escuro);
+    cursor: pointer;
+    transition: .3s;
+}
+
 
 div#logo h1 {
     font-weight: 800;
@@ -199,11 +246,41 @@ section#buscas {
 div.card {
     display: flex;
     align-items: center;
+    
 }
 
 div.card img {
-    max-width: 50rem;
+    max-width: 20rem;
 }
+
+div.card:hover {
+    transform: scale(1.005);
+    cursor: pointer; 
+}
+
+div.card:nth-child(1) img {
+    content: url('/imagens/buscas_cresceram.png');
+  }
+
+  div.card:nth-child(1):hover img {
+    content: url('/imagens/buscas_cresceram_hover.png');
+  }
+
+  div.card:nth-child(2) img {
+    content: url('/imagens/buscas_desejadas.png');
+  }
+
+  div.card:nth-child(2):hover img {
+    content: url('/imagens/buscam_desejadas_hover.png');
+  }
+
+  div.card:nth-child(3) img {
+    content: url('/imagens/tendencias_populares.png');
+  }
+
+  div.card:nth-child(3):hover img {
+    content: url('/imagens/tendencias_populares_hover.png'); 
+  }
 
 
 section#adicionadas {
@@ -242,9 +319,8 @@ span#pesquisa input {
 
 section#buscasCresceram {
     display: flex;
-    margin: 30rem 10rem 15rem 10rem;
+    margin: 25rem 10rem 15rem 10rem;
     flex-direction: column;
-    align-items: center;
 }
 
 section#buscasCresceram h2 {
@@ -348,7 +424,7 @@ section#categorias {
 
 article.cards {
     display: grid;
-    grid-template-columns: repeat(7, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     gap: 2rem;
 }
 
@@ -393,6 +469,15 @@ div.card_categorias p {
 
 ::-webkit-scrollbar-thumb:active {
     background: #487AF9;
+}
+
+
+@media (width > 900) {
+    article.cards {
+        display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 2rem;
+    }
 }
 
 
