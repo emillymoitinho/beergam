@@ -358,10 +358,17 @@ section#buscasCresceram {
     flex-direction: column;
 }
 
-section#buscasCresceram h2 {
-    margin-bottom: 2rem;
+section#buscasCresceram span.header {
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
+span.header span.title {
+    display: flex;
+    gap: 1rem;
+}
 article.cards_cresceram {
     padding: 20px;
     border-radius: 20px;
