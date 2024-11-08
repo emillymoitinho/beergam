@@ -299,7 +299,7 @@ div.card {
 }
 
 div.card img {
-    max-width: 20rem;
+    max-width: 25rem;
 }
 
 div.card:hover {
@@ -372,7 +372,7 @@ span#pesquisa input {
 
 section#buscasCresceram {
     display: flex;
-    margin: 25rem 10rem 15rem 10rem;
+    margin: 25rem 10rem 10rem 10rem;
     flex-direction: column;
 }
 
@@ -495,8 +495,8 @@ section#categorias {
 
 article.cards {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 2rem;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 1rem;
 }
 
 div.card_categorias {
