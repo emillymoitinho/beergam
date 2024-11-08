@@ -1,0 +1,14 @@
+
+Olá!
+
+Para facilitar o acesso, estou enviando o link do repositório do GitHub e, caso prefira, também pode visualizar o projeto diretamente pelo GitHub Pages.
+
+Aqui estão os links:
+
+Repositório GitHub: https://github.com/emillymoitinho/beergam
+Site(Github Pages): https://emillymoitinho.github.io/beergam/
+
+Além disso, criei uma pasta chamada "prints" com capturas de tela mostrando como o site aparece no meu computador. 
+Como ele não está responsivo, possa ser que os elementos se desorganizem em telas menores.
+
+Agradeço pela oportunidade!
