@@ -28,6 +28,10 @@
     list-style: none;
 }
 
+body {
+    position: relative;
+}
+
 
 body,html {
     font-family: "Nunito", sans-serif;
@@ -48,6 +52,7 @@ nav#menu {
     padding: 20px;
     border-radius: 20px;
     gap: 2rem;
+    z-index: 1;
 
 }
 
@@ -278,12 +283,15 @@ article#cards_catalogo {
     grid-template-columns: repeat(4, 1fr);
     gap: 2rem;
     flex: 0 1 150px;
+    z-index: 1;
 }
 
 div.card {
-    background-color: #ffffff91;
+    background-color: #ffffff57;
     padding: 20px;
     border-radius: 20px;
+    border: 1px solid #ffffff88;
+    box-shadow: 10px 10px 10px 10px #ffffff57;
 }
 
 div.card img {
@@ -385,4 +393,11 @@ div#botao button {
     background: #487AF9;
 }
 
+
+span.decor {
+    position: absolute;
+    top: 55%;
+    left: 0%;
+    
+}
 
