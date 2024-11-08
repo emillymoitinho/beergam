@@ -125,7 +125,7 @@ div#main ul li .decor {
 }
 
 header {
-    background: url(/imagens/fundo_favoritos.png), linear-gradient(#FFBD70, #FF8A00);
+    background: url(/imagens/fundo_cresceram.png), linear-gradient(#FFBD70, #FF8A00);
     background-repeat: no-repeat;
     background-position: right top;
     padding: 3rem 15rem;
@@ -134,8 +134,29 @@ header {
 
 div#tendencias {
     display: flex;
-    justify-content: space-between;
+    align-items: center;
     max-width: 600px;
+    gap: 5rem;
+}
+
+div#pesquisa_catalogo {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #487af926;
+    gap: 1.15rem;
+    padding: 5px 2rem 5px 5px;
+    border-radius: 30px;
+}
+
+div#pesquisa_catalogo p#fav {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: #11263cb6;
+    font-size: 1.2rem;
+    font-weight: 700;
 }
 
 div#logo {
@@ -155,13 +176,14 @@ div#logo h1 {
     font-weight: 800;
 }
 
+
 div#destaque {
     display: flex;
     align-items: center;
     gap: 10px;
     background-color: var(--branco);
     padding: 10px 20px;
-    border-radius: 20px;
+    border-radius: 30px;
 }
 
 div#destaque > p {
@@ -276,11 +298,11 @@ div.card:nth-child(1) img {
   }
 
   div.card:nth-child(3) img {
-    content: url('/imagens/tendencias_populares.png');
+    content: url('/imagens/tendenciais_populares2.png');
   }
 
   div.card:nth-child(3):hover img {
-    content: url('/imagens/tendencias_populares_hover.png'); 
+    content: url('/imagens/teste.png'); 
   }
 
 
@@ -421,6 +443,7 @@ section#categorias {
     margin-bottom: 10rem;
     display: flex;
     justify-content: center;
+    gap: 2rem;
 }
 
 article.cards {
@@ -451,17 +474,17 @@ div.card_categorias p {
     font-weight: 700;
 }
 
-div#arrow_categorias {
+div.arrow_categorias {
     display: flex;
     align-items: center;
 }
 
-div#arrow_categorias span {
+div.arrow_categorias span {
     font-size: 40px;
     transition: .3s;
 }
 
-div#arrow_categorias span:hover {
+div.arrow_categorias span:hover {
     color: var(--laranja_escuro);
     cursor: pointer;
     
