@@ -187,7 +187,7 @@ section#explorador {
 
 article#pesquisar {
     background-color: #fff;
-    background: url(../imagens/busca_catalogo.png);
+    background: url(./imagens/busca_catalogo.png);
     background-size: cover;
     padding: 2rem 3rem;
     border-bottom-left-radius: 50px;
